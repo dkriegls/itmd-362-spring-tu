@@ -11,9 +11,10 @@ input {
   border: 1px solid #ccc;
   border-radius: 6px;
   box-sizing: border-box;
+
 }
 
-#fontsize {
+.fontsize {
   font-size: 1.3em;
 }
 
@@ -21,18 +22,20 @@ input {
   #container {
     text-align: center;
     margin: auto;
+    width: 65%;
   }
 
-  label {
+  .fontsize {
     font-size: 1.2em;
+    
   }
   
   input {
-    width: 60%;
+    width: 100%;
   }
   
   #submit {
-    width: 35%;
+    width: 30%;
     display: block;
     margin: auto;
     font-size: 0.8em;
@@ -41,8 +44,15 @@ input {
 
 @media screen and (min-width: 768px) {
   #container {
-    width: 600px;
+    width: 500px;
     float: right;
+    margin-right: 5%;
+  }
+  
+  
+  
+  .font-size {
+    font-size: 1em;
   }
   
   #submit {
