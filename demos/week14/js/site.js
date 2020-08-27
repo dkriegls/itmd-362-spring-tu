@@ -19,7 +19,7 @@ jQuery(function($) {
       window.location.replace('account.html');
     } else {
       console.log('Bad username');
-      $('#login').prepend('<div class="error">Incorrect Username or Password</div>');
+      $('#login').prepend('<p class="error">Incorrect Username or Password</p>');
     }
     e.preventDefault();
   });
